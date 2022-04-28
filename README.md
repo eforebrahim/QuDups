@@ -5,6 +5,8 @@
 
 ## "Currently, Quora uses a Random Forest model to identify duplicate questions. In this competition, Kagglers are challenged to tackle this natural language processing problem by applying advanced techniques to classify whether question pairs are duplicates or not. Doing so will make it easier to find high quality answers to questions resulting in an improved experience for Quora writers, seekers, and readers."
 
+[image-2022-04-29-010855400.png](https://postimg.cc/dhprZn5r)
+
 # Feature Enginerring, Modeling and Ensembling
 
 ## After creating 29 features like length of sentences, characters in sentences, fuzzy features, token features etc. and 2000 features using bag of words; lightGBM was used to classify whether two questions are duplicates or not. 4 LGBMs with different n_estimators were ensembled using soft VotingClassifier. The accuracy varied between 80 and 81.
