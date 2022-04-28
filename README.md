@@ -1,5 +1,6 @@
 # **QuDups**
 # **Credits**: The project has been made following this [tutorial](https://youtu.be/1fvQU5yPjFs) with a lot of value addition.
+# **For Live Demo click [here](https://duplicate-question-checker.herokuapp.com)**
 # **Goal**
 ## Our goal is to create and deploy a model that predicts whether two questions are same or not. As Quora said while hosting this competition on Kaggle:
 
